@@ -1,0 +1,38 @@
+.cell {
+  position: relative;
+}
+
+.input {
+  text-align: center;
+  border: none;
+  outline: none;
+  color: green;
+  font-weight: bold;
+  font-size: 16px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  &:hover {
+    background-color: transparent;
+  }
+}
+
+.span {
+  display: inline-block;
+  line-height: 30px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.error {
+  position: absolute;
+  left: 100%;
+  top: 0;
+  color: red;
+  white-space: nowrap;
+  font-size: 14px;
+  padding-left: 20px;
+}
